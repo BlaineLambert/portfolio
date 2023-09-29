@@ -1,11 +1,7 @@
 /* main page */
 
-.bg{
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    height: 100%;
-    width: 100%;
+body{
+    background-color: #9caf88;
 }
 .name{
     bottom: 10px;
@@ -18,13 +14,6 @@
     text-align: left;
     font-size: 42px;
     background-color: teal;
-}
-.logo{
-    position: absolute;
-    bottom: 320px;
-    left: 350px;
-    width: 60px;
-    z-index: 1;
 }
 .about{
     color: white;
@@ -61,6 +50,8 @@
     left: 40px;
     width: 290px;
     z-index: 1;
+    border-style: solid;
+    border-color: white;
 }
 .personalaboutme{
     position: absolute;
@@ -91,7 +82,7 @@
 /* main page PC */
 /* main page mobile */
 
-@media only screen and (max-width:1500px){
+@media only screen and (max-width:980px){
     .bg{
         position: fixed;
         top: 0px;
@@ -111,14 +102,7 @@
         font-size: 42px;
         background-color: teal;
         height: 350px;
-        right: 60px;
-    }
-    .logo{
-        position: absolute;
-        top: 60px;
-        left: 840px;
-        width: 60px;
-        z-index: 1;
+        right: 100px;
     }
     .about{
         color: white;
@@ -127,39 +111,38 @@
     }
     .skills{
         position: absolute;
-        top: 700px;
+        top: 450px;
         right: 60px;
         color: white;
-        padding: 10px;
         border-spacing: 10px;
         background-color: teal;
-        padding: 20px;
+        padding: 25px;
         border-color: white;
         border-style: solid;
+        font-size: 24pt;
     }
     .projects{
         position: absolute;
-        top: 1280px;
+        top: 1150px;
         right: 61px;
         color: white;
-        padding: 10px;
         border-spacing: 10px;
         background-color: teal;
-        padding: 5px;
         border-color: white;
         border-style: solid;
+        font-size: 24pt;
     }
     .me{
         position: absolute;
-        top: 15px;
-        left: 60px;
+        top: 30px;
+        left: 30px;
         width: 360px;
         z-index: 1;
     }
     .personalaboutme{
         position: absolute;
-        top: 670px;
-        left: 45px;
+        top: 450px;
+        left: 25px;
         color: white;
         border-color: white;
         background-color: teal;
@@ -170,8 +153,8 @@
     }
     .contactme{
         position: absolute;
-        top: 1100px;
-        left: 47px;
+        top: 1850px;
+        left: 25px;
         border-color: white;
         background-color: teal;
         border-style: solid;
