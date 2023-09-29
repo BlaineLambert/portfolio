@@ -113,8 +113,8 @@ body{
     }
     .skills{
         position: absolute;
-        top: 2000px;
-        right: 150px;
+        top: 2100px;
+        left: 80px;
         color: white;
         border-spacing: 10px;
         background-color: teal;
@@ -127,8 +127,8 @@ body{
     }
     .projects{
         position: absolute;
-        top: 3000px;
-        right: 120px;
+        top: 3200px;
+        left: 80px;
         color: white;
         border-spacing: 10px;
         background-color: teal;
@@ -157,7 +157,7 @@ body{
     }
     .contactme{
         position: absolute;
-        top: 4550px;
+        top: 4950px;
         left: 75px;
         border-color: white;
         background-color: teal;
@@ -172,7 +172,7 @@ body{
     }
     .resume{
         position: absolute;
-        top: 3350px;
+        top: 3650px;
         left: 25px;
         height: 1200px;
     }
