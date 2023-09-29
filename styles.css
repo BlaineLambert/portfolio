@@ -100,7 +100,7 @@
         width: 100%;
     }
     .name{
-        top: 320px;
+        top: 10px;
         position: absolute;
         border-style: solid;
         padding: 5px;
@@ -110,12 +110,13 @@
         text-align: left;
         font-size: 42px;
         background-color: teal;
-        height: 320px;
+        height: 350px;
+        right: 60px;
     }
     .logo{
         position: absolute;
-        top: 360px;
-        left: 320px;
+        top: 60px;
+        left: 840px;
         width: 60px;
         z-index: 1;
     }
@@ -152,24 +153,24 @@
         position: absolute;
         top: 15px;
         left: 60px;
-        width: 290px;
+        width: 360px;
         z-index: 1;
     }
     .personalaboutme{
         position: absolute;
-        top: 1430px;
+        top: 670px;
         left: 45px;
         color: white;
         border-color: white;
         background-color: teal;
         padding: 5px;
         border-style: solid;
-        width: 300px;
+        width: 400px;
         font-size: 18pt;
     }
     .contactme{
         position: absolute;
-        top: 1850px;
+        top: 1000px;
         left: 27px;
         border-color: white;
         background-color: teal;
