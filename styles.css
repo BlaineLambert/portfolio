@@ -1,0 +1,186 @@
+/* main page */
+
+.bg{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+.name{
+    bottom: 10px;
+    position: absolute;
+    border-style: solid;
+    padding: 5px;
+    color: black;
+    border-color: white;
+    width: 400px;
+    text-align: left;
+    font-size: 42px;
+    background-color: teal;
+}
+.logo{
+    position: absolute;
+    bottom: 320px;
+    left: 350px;
+    width: 60px;
+    z-index: 1;
+}
+.about{
+    color: white;
+    font-size: 24pt;
+    text-align: left;
+}
+.skills{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    color: white;
+    padding: 10px;
+    border-spacing: 10px;
+    background-color: teal;
+    padding: 20px;
+    border-color: white;
+    border-style: solid;
+}
+.projects{
+    position: absolute;
+    top: 580px;
+    right: 10px;
+    color: white;
+    padding: 10px;
+    border-spacing: 10px;
+    background-color: teal;
+    padding: 5px;
+    border-color: white;
+    border-style: solid;
+}
+.me{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    width: 290px;
+    z-index: 1;
+}
+.personalaboutme{
+    position: absolute;
+    top: 15px;
+    left: 380px;
+    color: white;
+    border-color: white;
+    background-color: teal;
+    padding: 5px;
+    border-style: solid;
+    width: 800px;
+    font-size: 18pt;
+}
+.contactme{
+    position: absolute;
+    top: 480px;
+    left: 470px;
+    border-color: white;
+    background-color: teal;
+    border-style: solid;
+    width: 380px;
+    text-align: center;
+}
+.contactmecontents{
+    font-size: 18pt;
+    color: white;
+}
+/* main page PC */
+/* main page mobile */
+
+@media only screen and (max-width:1000px){
+    .bg{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+    }
+    .name{
+        top: 320px;
+        position: absolute;
+        border-style: solid;
+        padding: 5px;
+        color: black;
+        border-color: white;
+        width: 370px;
+        text-align: left;
+        font-size: 42px;
+        background-color: teal;
+        height: 320px;
+    }
+    .logo{
+        position: absolute;
+        top: 360px;
+        left: 320px;
+        width: 60px;
+        z-index: 1;
+    }
+    .about{
+        color: white;
+        font-size: 24pt;
+        text-align: left;
+    }
+    .skills{
+        position: absolute;
+        top: 700px;
+        right: 60px;
+        color: white;
+        padding: 10px;
+        border-spacing: 10px;
+        background-color: teal;
+        padding: 20px;
+        border-color: white;
+        border-style: solid;
+    }
+    .projects{
+        position: absolute;
+        top: 1280px;
+        right: 61px;
+        color: white;
+        padding: 10px;
+        border-spacing: 10px;
+        background-color: teal;
+        padding: 5px;
+        border-color: white;
+        border-style: solid;
+    }
+    .me{
+        position: absolute;
+        top: 15px;
+        left: 60px;
+        width: 290px;
+        z-index: 1;
+    }
+    .personalaboutme{
+        position: absolute;
+        top: 1430px;
+        left: 45px;
+        color: white;
+        border-color: white;
+        background-color: teal;
+        padding: 5px;
+        border-style: solid;
+        width: 300px;
+        font-size: 18pt;
+    }
+    .contactme{
+        position: absolute;
+        top: 1850px;
+        left: 27px;
+        border-color: white;
+        background-color: teal;
+        border-style: solid;
+        width: 350px;
+        text-align: center;
+    }
+    .contactmecontents{
+        font-size: 18pt;
+        color: white;
+    }
+}
+
+/* main page mobile */
