@@ -115,7 +115,7 @@ body{
         padding: 25px;
         border-color: white;
         border-style: solid;
-        font-size: 24pt;
+        font-size: 18pt;
     }
     .projects{
         position: absolute;
@@ -126,7 +126,7 @@ body{
         background-color: teal;
         border-color: white;
         border-style: solid;
-        font-size: 24pt;
+        font-size: 18pt;
     }
     .me{
         position: absolute;
