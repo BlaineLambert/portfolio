@@ -79,6 +79,13 @@ body{
     font-size: 18pt;
     color: white;
 }
+.resume{
+    position: absolute;
+    top: 800px;
+    left: 15px;
+    height: 650px;
+    padding: 20px;
+}
 /* main page PC */
 /* main page mobile */
 
@@ -160,6 +167,12 @@ body{
     .contactmecontents{
         font-size: 18pt;
         color: white;
+    }
+    .resume{
+        position: absolute;
+        top: 800px;
+        left: 0px;
+        height: 650px;
     }
 }
 
