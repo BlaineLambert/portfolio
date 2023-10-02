@@ -93,28 +93,22 @@ body{
         background-color: #9caf88;
     }
     .name{
-        top: 820px;
-        position: absolute;
+        top: 830px;
         border-style: solid;
-        padding: 5px;
-        color: black;
-        border-color: white;
-        width: 700px;
-        text-align: left;
-        font-size: 42px;
-        background-color: teal;
-        height: 350px;
-        right: 150px;
+        width: 80%;
+        text-align: center;
+        height: fit-content;
+        margin-left: 8%;
     }
     .about{
         color: white;
         font-size: 32pt;
-        text-align: left;
+        text-align: center;
     }
     .skills{
         position: absolute;
-        top: 2100px;
-        left: 80px;
+        top: 2000px;
+        left: 15%;
         color: white;
         border-spacing: 10px;
         background-color: teal;
@@ -127,8 +121,8 @@ body{
     }
     .projects{
         position: absolute;
-        top: 3200px;
-        left: 50px;
+        top: 3000px;
+        left: 12%;
         color: white;
         border-spacing: 10px;
         background-color: teal;
@@ -137,28 +131,27 @@ body{
         font-size: 42pt;
     }
     .me{
-        position: absolute;
-        top: 30px;
-        left: 120px;
-        width: 700px;
+        top: 25px;
+        width: 710px;
+        left: 1%;
         z-index: 1;
     }
     .personalaboutme{
-        position: absolute;
-        top: 1200px;
-        left: 30px;
+        top: 1250px;
         color: white;
         border-color: white;
         background-color: teal;
-        padding: 5px;
         border-style: solid;
         width: 900px;
         font-size: 42pt;
+        text-align: center;
+        left: 4%;
+
     }
     .contactme{
         position: absolute;
-        top: 4950px;
-        left: 70px;
+        top: 4650px;
+        left: 8%;
         border-color: white;
         background-color: teal;
         border-style: solid;
@@ -172,9 +165,10 @@ body{
     }
     .resume{
         position: absolute;
-        top: 3650px;
-        left: 25px;
+        top: 3350px;
+        left: 1%;
         height: 1200px;
+        width: 100%;
     }
 }
 
