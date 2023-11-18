@@ -35,8 +35,8 @@ body{
 }
 .projects{
     position: absolute;
-    top: 800px;
-    right: 30px;
+    top: 300px;
+    right: 500px;
     color: white;
     padding: 10px;
     border-spacing: 10px;
@@ -68,8 +68,8 @@ body{
 }
 .contactme{
     position: absolute;
-    top: 980px;
-    right: 30px;
+    top: 500px;
+    right: 500px;
     border-color: white;
     background-color: teal;
     border-style: solid;
